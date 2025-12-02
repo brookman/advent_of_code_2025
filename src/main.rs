@@ -12,7 +12,6 @@ mod geometry;
 mod s_01;
 mod s_02;
 mod s_03;
-mod s_03_2;
 mod s_04;
 mod s_05;
 mod s_06;
@@ -22,25 +21,12 @@ mod s_09;
 mod s_10;
 mod s_11;
 mod s_12;
-mod s_13;
-mod s_14;
-mod s_15;
-mod s_16;
-mod s_17;
-mod s_18;
-mod s_19;
-mod s_20;
-mod s_21;
-mod s_22;
-mod s_23;
-mod s_24;
-mod s_25;
 
 fn main() {
     let solutions: Vec<Vec<Box<dyn Solution>>> = vec![
         vec![Box::new(s_01::S)],
         vec![Box::new(s_02::S)],
-        vec![Box::new(s_03::S), Box::new(s_03_2::S)],
+        vec![Box::new(s_03::S)],
         vec![Box::new(s_04::S)],
         vec![Box::new(s_05::S)],
         vec![Box::new(s_06::S)],
@@ -50,19 +36,6 @@ fn main() {
         vec![Box::new(s_10::S)],
         vec![Box::new(s_11::S)],
         vec![Box::new(s_12::S)],
-        vec![Box::new(s_13::S)],
-        vec![Box::new(s_14::S)],
-        vec![Box::new(s_15::S)],
-        vec![Box::new(s_16::S)],
-        vec![Box::new(s_17::S)],
-        vec![Box::new(s_18::S)],
-        vec![Box::new(s_19::S)],
-        vec![Box::new(s_20::S)],
-        vec![Box::new(s_21::S)],
-        vec![Box::new(s_22::S)],
-        vec![Box::new(s_23::S)],
-        vec![Box::new(s_24::S)],
-        vec![Box::new(s_25::S)],
     ];
 
     // newest first
